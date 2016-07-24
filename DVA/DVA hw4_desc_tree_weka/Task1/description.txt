@@ -1,0 +1,17 @@
+Initial tree implementation in Section A:
+	I have minimized the entropy by considering only integer to float attributes. This is the base implementation for further enhancements. I have used the entropy formulae given in the class slides. In every step, I try to minimize the entropy of the split.
+Initial accuracy:0.8971
+
+Improvements:
+
+1: I have randomly split non-integer attributes at every step and calculated Entropy. I have selected each attribute with only 30% probability and pruned tree to depth 10. Though the accuracy decreased, the speed of the tree increased due to pruning. Also this reduces the cases of overfitting.
+
+accuracy: 0.8910
+
+2: I have calculated number of “yes” and “no” associated with each discrete attribute value(non integer and non float) and based on it assigned integer values(0 to a half or 1 to other half of discrete values) to these attributes. This converts all the columns to integer from non integer and increase accuracy.
+
+accuracy: 0.8923
+
+3: At the leaves of pruned trees, I have inserted Linear Regression code to help improve on the prediction at leaves. I have used only 1st two columns for now just as a demonstration.
+
+accuracy: 0.8919

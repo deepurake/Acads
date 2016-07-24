@@ -1,0 +1,27 @@
+Mashape: E6d6b1GU2qmshKhJPSfinKphSrCqp1RBas8jsnK140CwVTQKGp
+
+
+People browser:
+
+Application: DVA project
+
+DVa project submission
+Application ID
+
+This is the application ID, you should send with each API request.
+
+ab3ae9f8
+
+Application Keys
+
+These are application keys used to authenticate requests.
+
+
+5281b00d7824f7bf662493a3b63f4031	—
+Properties
+
+State	live
+Edit
+Plan: Default - Access to Global Kred Score up to 500,000 calls / day (Review/Change)
+
+To extend your limits please contact us.

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  /*fill: orange;*/
+}
+
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  /*display: none;*/
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+</style>
+<body>
+<script src="d3/d3.v3.min.js"></script>
+<script>
+
+  //Graph1 Happiness
+
+  var margin = {top: 40, right: 40, bottom: 30, left: 40},
+      width = 500 - margin.left - margin.right,
+      height = 400 - margin.top - margin.bottom;
+
+  var formatPercent = d3.format(".0%");
+
+  var x = d3.scale.ordinal()
+      .rangeRoundBands([0, width], .1);
+
+  var y = d3.scale.linear()
+      .range([height, 0]);
+
+  var xAxis = d3.svg.axis()
+      .scale(x)
+      .orient("bottom");
+
+  var yAxis = d3.svg.axis()
+      .scale(y)
+      .orient("left");
+
+  var svg_main = d3.select("body").append("g").append("svg").attr("id","SVG1")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom);
+
+  var svg = svg_main.append("g").attr("id","1")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  d3.json("songs.json", function(error, full_data) {
+    var data = full_data.slice(0,1);
+    data.push(full_data[3]);
+    data.push(full_data[10]);
+    data.push(full_data[19]);
+    data.push(full_data[26]);
+    //console.log(data);
+    x.domain(data.map(function(d) { return d.Song; }));
+    y.domain([5, 6.5/*d3.max(data, function(d) { return d.Happiness; })*/]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+      .append("text")
+      .attr("x", width)
+      .attr("dx", 0)
+      .attr("dy", -3)
+      .style("text-anchor", "end")
+      .text("Song");
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Happiness"); 
+
+  svg.selectAll(".bar")
+      .data(data)
+      .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) {  return x(d.Song); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.Happiness)-10; })
+      .attr("height", function(d) { return height - y(d.Happiness); })
+      .style("fill","#CC9900");
+
+  });
+
+var margin = {top: 40, right: 40, bottom: 30, left: 100},
+      width = 550 - margin.left - margin.right,
+      height = 400 - margin.top - margin.bottom;
+
+  formatPercent = d3.format(".0%");
+
+  x1 = d3.scale.ordinal()
+      .rangeRoundBands([0, width], .1);
+
+  y1 = d3.scale.linear()
+      .range([height, 0]);
+
+  var xAxis1 = d3.svg.axis()
+      .scale(x1)
+      .orient("bottom");
+
+  var yAxis1 = d3.svg.axis()
+      .scale(y1)
+      .orient("left");
+
+  var svg_main1 = d3.select("body").append("g").append("svg").attr("id","SVG2")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom);
+  /*svg = d3.select("body").append("g").append("svg").attr("id","SVG2")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)*/
+  var svg1 = svg_main1.append("g").attr("id","2")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  d3.json("songs.json", function(error, full_data) {
+    var data = full_data.slice(0,1);
+    data.push(full_data[3]);
+    data.push(full_data[10]);
+    data.push(full_data[19]);
+    data.push(full_data[26]);
+    //console.log(data);
+    x1.domain(data.map(function(d) { return d.Song; }));
+    y1.domain([46, 60/*d3.max(data, function(d) { return parseFloat(d.loudness)+60; })*/]);
+
+  svg1.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis1)
+      .append("text")
+      .attr("x", width)
+      .attr("dx", 0)
+      .attr("dy", -3)
+      .style("text-anchor", "end")
+      .text("Song");
+
+  svg1.append("g")
+      .attr("class", "y axis")
+      .call(yAxis1)
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Loudness"); 
+
+  svg1.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) {  return x1(d.Song); })
+      .attr("width", x1.rangeBand())
+      .attr("y", function(d) { return y1(parseFloat(d.loudness)+60)-10; })
+      .attr("height", function(d) { return height - y1(parseFloat(d.loudness)+60); })
+      .style("fill","CadetBlue");
+});
+
+// Third Graph
+var margin2 = {top: 40, right: 40, bottom: 30, left: 170},
+      width2 = 930 - margin2.left - margin2.right,
+      height2 = 400 - margin2.top - margin2.bottom;
+
+var x20 = d3.scale.ordinal()
+    .rangeRoundBands([0, width2], .1);
+
+var x21 = d3.scale.ordinal();
+
+var y2 = d3.scale.linear()
+    .range([height2, 0]);
+
+var color = d3.scale.ordinal()
+    .range(["#ffffcc","#c7e9b4","#7fcdbb","#41b6c4","#2c7fb8","#253494"]/*["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]*/);
+
+var xAxis2 = d3.svg.axis()
+    .scale(x20)
+    .orient("bottom");
+
+var yAxis2 = d3.svg.axis()
+    .scale(y2)
+    .orient("left");
+    //.tickFormat(d3.format(".2s"));
+
+var svg2 = d3.select("body").append("svg")
+    .attr("width", width2 + margin2.left + margin2.right)
+    .attr("height", height2 + margin2.top + margin2.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
+
+d3.json("songs.json", function(error, full_data) {
+
+    var data1 = full_data.slice(0,1);
+    data1.push(full_data[3]);
+    data1.push(full_data[10]);
+    data1.push(full_data[19]);
+    data1.push(full_data[26]);
+    console.log(data1);
+
+  var keys = Object.keys(data1[0]);
+  //console.log(keys);
+  var myKeys = ["danceability","energy", "speechiness", "liveness", "acousticness", "valence"];
+
+
+
+  //var ageNames = ["danceability"];
+  var ageNames = [];
+  for(i = 0; i<data1.length; i++)
+    ageNames.push(data1[i].Song);
+
+  var data = [];
+  for (i = 0; i<myKeys.length; i++)
+  {
+    data.push(new Object());
+    var key = myKeys[i];
+    data[i].State = key;
+    for(j = 0; j<ageNames.length; j++)
+    {
+      data[i][ageNames[j]] = data1[j][key];
+    }
+  }
+  //console.log(data);
+ 
+  data.forEach(function(d) {
+    //alert(JSON.stringify(d, null, '  '));
+    d.ages = ageNames.map(function(name) { return {name: name, value: +d[name]}; });
+  });
+    //console.log(data);
+    //console.log(ageNames);
+    console.log([0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
+  x20.domain(data.map(function(d) { console.log(d.State); return d.State; }));
+  x21.domain(ageNames).rangeRoundBands([0, x20.rangeBand()]);
+  y2.domain([0,1]/*[0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]*/);
+
+  svg2.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis2);
+
+  svg2.append("g")
+      .attr("class", "y axis")
+      .call(yAxis2)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Population");
+
+  var state = svg2.selectAll(".state")
+      .data(data)
+    .enter().append("g")
+      .attr("class", "g")
+      .attr("transform", function(d) { console.log("translate(" + x20(d.State) + ",0)");return "translate(" + x20(d.State) + ",0)"; });
+
+  state.selectAll("rect")
+      .data(function(d) { return d.ages; })
+    .enter().append("rect")
+      .attr("width", x21.rangeBand())
+      .attr("x", function(d) { return x21(d.name); })
+      .attr("y", function(d) { return y2(d.value); })
+      .attr("height", function(d) { return height - y2(d.value); })
+      .style("fill", function(d) { return color(d.name); });
+
+  var legend = svg2.selectAll(".legend")
+      .data(ageNames.slice().reverse())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
+  /*for(i = 0; i<keys.length; i++)
+  {
+    var key = keys[i];
+    //console.log(key);
+    if(myKeys.indexOf(key) != -1) continue;
+    if(key == "Song") continue;
+    //delete data[key]
+    for(j = 0; j<data.length; j++)
+    {
+      entry = data[j];
+      delete entry[key];
+    }
+      
+  }*/
+  //console.log(data);
+  //alert(ageNames);
+  //[data[0].Song,data[1].Song,data[2].Song,data[3].Song,data[4].Song];
+  //d3.keys(data[0]).filter(function(key) { return key !== "State"; });
+
+  /*data.forEach(function(d) {
+    d.ages = [];
+    var newObject = new Object();
+    for(i = 0; i<myKeys.length;i++)
+    {
+      //newObject[myKeys[i]] = d[myKeys[i]];
+    }
+    for(i = 0; i<myKeys.length; i++)
+    {
+      d.ages.push({name: myKeys[i],value: d[myKeys[i]]});
+    }
+    //d.ages = myKeys.map(function(name) { return {name: name, value: +d[name]}; });
+  });
+
+  console.log(ageNames);
+  console.log(data);
+
+  x20.domain(data.map(function(d) { return d.Song; }));
+  x21.domain(ageNames).rangeRoundBands([0, x20.rangeBand()]);
+  y2.domain([0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
+
+  svg2.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height2 + ")")
+      .call(xAxis2);
+
+  svg2.append("g")
+      .attr("class", "y axis")
+      .call(yAxis2)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Values");
+
+  var state = svg2.selectAll(".state")
+      .data(data)
+    .enter().append("g")
+      .attr("class", "g")
+      .attr("transform", function(d) { console.log(d);
+        return "translate(" + x20(d.Song) + ",0)"; 
+      });
+
+  state.selectAll("rect")
+      .data(function(d) {return d.ages })
+    .enter().append("rect")
+      .attr("width", x21.rangeBand())
+      .attr("x", function(d) { 
+        return x21(d.name); })
+      .attr("y", function(d) { 
+        console.log(d.value); 
+        return y2(d.value); })
+      .attr("height", function(d) { return height2 - y2(d.value); })
+      .style("fill", function(d) { return color(d.name); });
+
+  var legend = svg2.selectAll(".legend")
+      .data(ageNames.slice().reverse())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width2 - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width2 - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });*/
+
+});
+
+
+
+</script>

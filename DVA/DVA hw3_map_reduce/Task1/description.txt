@@ -1,0 +1,2 @@
+The Map function filters the data and collects only destination and edge weights of the data. Input file is broken into lines which contains source, destination and the edge distance in this function. 
+The reduce functions, calculate sum of weights for each destination by aggregating output of the first function.

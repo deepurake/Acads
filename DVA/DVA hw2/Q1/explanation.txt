@@ -1,0 +1,10 @@
+Q1.3c:
+Ans: It is advisable to scale according to Square root of coolness rather than scaling to coolness. 
+The coolness range from 4-256 which is difficult to scale in single graph. However square root is in range 2-16 which is much clear.
+
+Q1.4:
+Ans:  There are multiple nodes in the graph, however not all nodes are important. labelling important nodes reduces readability of the graph. Q1.3 identifies important nodes, but it is important to label only important nodes reducing confusion.
+
+Q1.8b
+Ans:  I have experimented and changed charge, Link distance and gravity. In addition, I have increased the width and height to reduce the congestion(it works in my computer perfectly).
+

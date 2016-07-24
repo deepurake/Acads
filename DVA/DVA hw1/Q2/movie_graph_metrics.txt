@@ -1,0 +1,16 @@
+Average node degree — 0.543
+	Average node degree gives an idea about how well the graph is connected. i.e, number of movies similar to any given movie on an average. Here average node degree is less indicating that most of the movies doesn’t have any similar movie to it. This is clear from the graph itself.
+
+Diameter of the Graph — 3
+	Graph diameter indicates longest short path between any two connected vertices in the graph. This indicates how tightly couples any two sub connected graph vertices are. There are sub graphs of 10 nodes as well in the graph, however graph diameter is 3, indicating centralized structure of subgraphs.
+
+Average path length — 1.79
+	The average path length is average minimum path distance between any two connected nodes. This is another indication of how tightly connected are subgraphs. This also indicates that each subgraph is small.
+
+Movies with top 5 highest PageRank Score are:
+
+1) It's a Wonderful Life
+2) A Bug's Life
+3) Charlie St. Cloud
+4) The Life Aquatic with Steve Zissou
+5) Lara Croft Tomb Raider - The Cradle of Life

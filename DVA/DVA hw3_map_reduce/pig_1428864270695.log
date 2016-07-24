@@ -1,0 +1,22 @@
+Pig Stack Trace
+---------------
+ERROR 1200: <file pig_small.txt, line 1, column 15>  Unexpected character '“'
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1000: Error during parsing. <file pig_small.txt, line 1, column 15>  Unexpected character '“'
+	at org.apache.pig.PigServer$Graph.parseQuery(PigServer.java:1748)
+	at org.apache.pig.PigServer$Graph.access$000(PigServer.java:1443)
+	at org.apache.pig.PigServer.parseAndBuild(PigServer.java:387)
+	at org.apache.pig.PigServer.executeBatch(PigServer.java:412)
+	at org.apache.pig.PigServer.executeBatch(PigServer.java:398)
+	at org.apache.pig.tools.grunt.GruntParser.executeBatch(GruntParser.java:171)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:234)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.exec(Grunt.java:81)
+	at org.apache.pig.Main.run(Main.java:624)
+	at org.apache.pig.Main.main(Main.java:170)
+Caused by: Failed to parse: <file pig_small.txt, line 1, column 15>  Unexpected character '“'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:246)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.parseQuery(PigServer.java:1735)
+	... 10 more
+================================================================================

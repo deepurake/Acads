@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.node label {
+  pointer-events: none;
+  font: 100px sans-serif;
+}
+</style>
+
+<head>
+<title>Rakesh Surapaneni</title>
+</head>
+
+<body>
+<script src="d3/d3.v3.min.js"></script>
+<script src="d3/d3­-tip.js"></script>
+<script>
+
+// Colors used for the node
+var colours = ["#fc8d59","#d7301f","#737373","#fc4e2a","#fdae6b","#fd8d3c","#f16913","#d94801","#a63603","#7f2704","#7f0000"];
+
+//Size of region to render on
+var width = 1060,
+    height = 650;
+
+//D3 force directed layout
+//Try playing with the charge and link distance
+var force = d3.layout.force()
+    .charge(-1500)
+    .linkDistance(70)
+    .gravity(1)
+    .size([width, height]);
+
+//Add our canvas
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+//Select the miserables data ;)
+d3.json("miserables.json", function(error, graph) {
+  force
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .start();
+
+//Add the links
+  var link = svg.selectAll(".link")
+      .data(graph.links)
+      .enter().append("line")
+      .attr("class", "link")
+      .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+// Tool tip for Q 1.7
+  /* Initialize tooltip */
+  tip = d3.tip().attr('class', 'd3-tip').html(
+    function(d) {
+      return "name: "+d.name +"<br />group: "+d.group+"<br />coolness: "+d.coolness;
+     //return "hii"; 
+   });
+  svg.call(tip);
+
+//Add the node group which contains node and its name
+  var node_group = svg.selectAll(".node")
+      .data(graph.nodes)
+      .enter()
+      .append("g")
+      .call(force.drag)
+      ;
+
+//Node is in node group a circle
+  var node = node_group.append("circle")
+      .attr("class", "node")
+      .attr("r", 5)
+      .call(force.drag).on('mouseover', tip.show)
+      .on('mouseout', tip.hide);
+	  
+  var label = node_group.append("text")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      //.text(function(d) { return d.name; })
+      // Q1.4: show label only if cool
+      .text(function(d) { 
+        if(d.coolness > 25){ 
+          return d.name;
+        } else return ""; })
+      .call(force.drag)
+      ;
+
+node_group.on("dblclick",function(d){
+        if(d.fixed){
+          d.fixed = false;
+          var value = d3.select(this).select("text").text();
+          d3.select(this).select("text").text(value.substring(0,value.length-1)).style("font-weight", "normal");
+        }
+        else{
+          d.fixed = true;
+          var value = d3.select(this).select("text").text();
+          d3.select(this).select("text").text(value+"*").style("font-weight", "bold");
+
+        }
+      } );
+  
+  function modifyX(x)
+  {
+    if(x < 10) return 10;
+    if(x >= width-80) return width-81;
+    return x;
+  }
+  function modifyY(y)
+  {
+    if(y < 20) return 20;
+    if(y >= height-20) return height-21;
+    return y;
+  }
+//Update stuff for animation:
+//   This takes the physics simulation for the force directed graph and
+//   sets the location of the nodes and edges to the new positions
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return modifyX(d.source.x); })
+        .attr("y1", function(d) { return modifyY(d.source.y); })
+        .attr("x2", function(d) { return modifyX(d.target.x); })
+        .attr("y2", function(d) { return modifyY(d.target.y); });
+
+    node.attr("cx", function(d) { return modifyX(d.x); })
+        .attr("cy", function(d) { return modifyY(d.y); })
+        // Linear to coolness
+        //.attr("r", function(d) { return d.coolness/10})
+        //Linear to sqroot of coolness
+        .attr("r", function(d) { return Math.sqrt(d.coolness)/1.5})
+        .style("fill", function(d){ return colours[d.group]});
+
+    label.attr("x",function(d) {return modifyX(d.x)})
+        .attr("y",function(d) {return modifyY(d.y)});
+  });
+});
+
+</script>

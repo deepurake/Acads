@@ -1,0 +1,44 @@
+Section A:
+1.
+J48 -C 0.25 -M 2
+Time taken to build model: 2.4 seconds
+Overall Accuracy: 91.1989 %
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 35065  1483 |     a = no
+  2142  2498 |     b = yes
+
+2.
+SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Time taken to build model: 2585.42 seconds
+Overall Accuracy: 90.2957 %
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 35808   740 |     a = no
+  3257  1383 |     b = yes
+
+3.
+RandomForest -I 100 -K 0 -S 1
+Overall Accuracy: 91.1212 %
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 35339  1209 |     a = no
+  2448  2192 |     b = yes
+
+
+Section B:
+1.
+The result of Weka is 91.1899% compared to my result 0.8971 because: I have chosen only integer attributes in basic implementation of past 1 and the handling of non numeric attributes is inaccurate for later improvements causing the performance loss.
+
+2.
+I have chosen Random Forests since it is fast, robust and accurate enough to most of the data. Nothing to tune and no prior knowledge of data is generally required for Random Forests unlike other algorithms. Also it can be parallelized speeding it up.
+
+3.
+Decision tree: Decision trees are ideal for this data since it is fast, multiple attributes, huge data and since it is classification problem with various discrete attributes.
+SVM: Although it is good, it is very slow comparatively. Also it performed worse probably due to some fine tuning which needs to be done. 
+RandomForest: RandomForest performs exceptionally well as expected since it is decision tree based Ensemble method and also it is generally robust. The results are very close to decision tree and hence it is next best alternative here.

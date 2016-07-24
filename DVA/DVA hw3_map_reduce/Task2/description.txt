@@ -1,0 +1,3 @@
+—> The program splits each line and reads destination and edge weights, as a part of Map function. 
+—> On the key value pair, reduceByKey function is applied which aggregates the weight values over each destination.
+—> The Scala code is much more simple, smaller and elegant compared to java.

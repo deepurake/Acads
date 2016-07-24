@@ -1,0 +1,46 @@
+-- Question 1a --
+--sqlite3 rt.db--
+
+create table movies(id integer, name text, score integer);
+.separator ","
+.import movie-name-score.txt movies
+
+create table cast(movie_id integer, cast_id integer, cast_name text);
+.separator ","
+.import movie-cast.txt cast
+
+select '';
+-- Question 1b --
+create index movies_name_index on movies(name);
+create index movies_score_index on movies(score);
+
+select '';
+-- Question 1c --
+select avg(score) from movies where score >= 1;
+
+select '';
+-- Question 1d --
+select * from movies where score > 80 order by score ASC limit 5;
+
+select '';
+-- Question 1e --
+select cast_id, cast_name, count(cast_id) as movie_count from cast group by cast_id  having movie_count = 3 order by cast_name ASC limit 5;
+
+select '';
+-- Question 1f --
+select c.cast_id as cast_id, c.cast_name as cast_name, avg(m.score) as average_score from (select * from movies where score >= 1) as m join cast as c on c.movie_id=m.id group by cast_id having count(cast_id) >= 3 order by average_score DESC,cast_name limit 10;
+
+select '';
+-- Question 1g --
+create view good_collaboration as 
+	select cast_member_id1,cast_member_id2,avg(score) as avg_movie_score,count(cast_member_id1) as movie_count from
+	(select c1.cast_name as cast_member_id1,c2.cast_name as cast_member_id2, score from 
+	(select c.movie_id as movie_id,c.cast_name as cast_name,m.score as score from cast as c join movies as m on m.id=c.movie_id) as c1 
+	join cast as c2 on c1.movie_id=c2.movie_id where cast_member_id1!=cast_member_id2)
+	group by cast_member_id1,cast_member_id2 having movie_count >= 3 and avg_movie_score >= 75;
+
+select '';
+-- Question 1f --
+select cast_id,cast_name,avg(collab_score) as average_good_collab_score from 
+	(select c.cast_id as cast_id, c.cast_name as cast_name,gc.avg_movie_score as collab_score from good_collaboration as gc join cast as c on gc.cast_member_id1 = c.cast_name)
+	group by cast_id order by average_good_collab_score DESC limit 5;

@@ -1,0 +1,12 @@
+Q2.2:
+Ans: I have deleted the columns Year and Is.Final since they are always constant and not needed. In addition, I have rounded values that are large and fixed the decimal points of some columns to make numbers look uniform.
+
+Q2.3a
+Ans: Dull Orange, teal for first two charts. This are non distracting colors good for data representation. For third chart, I have used transition form yellow to blue which I got from colourbrewer to distinct data. 
+
+Q2.3b) 
+Ans: After experimenting with multiple colors and huge, I have found a colorblind pattern which is dull and non distracting. I have represented each item with a colour and grouped so that the can be compared together.
+
+Q2.4)
+Ans: I have used box plots in which it is easy to visualize the distribution. 
+Interesting observations such as similarity b/n average Quality and avg Normalized points and between avg Energy and avg danceability can be made.

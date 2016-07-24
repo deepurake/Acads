@@ -1,0 +1,3 @@
+1) I used Force atlas with high repulsion, since it helps best visualize small scale data, by dispersing high degree nodes away from center increasing readability. 
+2) I used darker color for higher degree to improve readability.
+3) Also number of edges are less much compared to number of nodes, hence I made it dark.

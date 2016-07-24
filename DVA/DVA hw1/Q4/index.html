@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Rakesh</title>
+      <script type="text/javascript" src="d3/d3.v3.min.js"></script>
+      <style type="text/css">
+        
+        div.bar {
+          display: inline-block;
+          width: 20px;
+          height: 75px;	/* Gets overriden by D3-assigned height below */
+          margin-right: 2px;
+          background-color: teal;
+        }
+      
+        </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Your beautiful D3 code will go here
+      var dataset = [ 5, 10, 15, 20, 25 ];
+      d3.select("body")
+        .append("p")
+        .text("Rakesh Surapaneni");
+        d3.select("body").selectAll("div")
+          .data(dataset)
+          .enter()
+          .append("div")
+          .attr("class", "bar")
+          .style("background-color", function(d) {
+            switch(d){
+              case 5:
+                return 'violet';
+                break;
+              case 10:
+                return 'green';
+                break;
+              case 15:
+                return 'yellow';
+                break;
+              case 20:
+                return 'orange';
+                break;
+              case 25:
+                return 'red';
+                break;
+              default:
+                return 'teal';
+            }
+          })
+          .style("height", function(d) {
+                            return d*5 + "px";
+          });
+
+    </script>
+  </body>
+</html>

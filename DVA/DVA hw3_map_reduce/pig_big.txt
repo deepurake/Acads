@@ -1,0 +1,6 @@
+bigrams = LOAD 's3://cse6242-bigram-eng/*' AS (bigram:chararray, year:int, count:int, books:int);
+grouped_bigrams = GROUP bigrams BY bigram;
+bigram_count = FOREACH grouped_bigrams GENERATE group, ((float)SUM(bigrams.count))/((float)SUM(bigrams.books)) as avg_appearence;
+sorted = ORDER bigram_count BY avg_appearence DESC, group ASC;
+top10 = LIMIT sorted 10;
+store top10 into 's3://cse6242-rsurapaneni6/output-big.txt';

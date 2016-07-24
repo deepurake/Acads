@@ -1,0 +1,14 @@
+1) Issue: In the plot “Top 10 Customers in the Pipeline”, It is difficult to read the graph since the the customers are in Y-axis.
+Instead the graph can be inverse with X-Axis being the customers revenue, while y axis being the revenue in dollars.
+
+2) Too much information in pipeline and trends
+Some redundant info can be deleted
+
+3) Probability bars is unclear, no description or Axes 
+we need x and Y axes to represent the data. Also we can make probability Y axes to make it more readable. 
+
+4) Redundant info in Revenue targets, Target% and Poor % have same values.
+They cane deleted and for the first table, we can delete the table and represent it as values for whole table.
+
+5) The chart database in targets and Revenue targets is not right way to represent numbers since we don’t get feel of comparison. 
+Bar charts would be a good alternative.

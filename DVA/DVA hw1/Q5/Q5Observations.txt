@@ -1,0 +1,5 @@
+c i) Clustering in open refine finds groups of different values that represent same thing. In given example, different people write dinner or breakfast in different styles caps etc.. which cluster is able to find and rewrite to a common value.
+
+c iii) notes is an ordinal data, however page_count is nominal
+
+c v) Split into columns is one of the useful features where when applied after reformatting input can be useful. For example physical_description after reformatted into standard format, can be split and analyzed for various features such as dimensions etc..
