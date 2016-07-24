@@ -1,0 +1,31 @@
+Project 4 - Recoverable Virtual Memory
+
+Team Members - Rakesh Surapaneni(903088569), Aishvarya Krishnan(903036986)
+=======================================================================================================
+
+=>Design of the RVM data structure
+We are using the following model for implementing Recoverable Virtual Memory in this project:
+1. RVM is implemented as a directory in UNIX file system which consists of various files including log file and data from segments saved as individual files.
+2. The log file consists of the transactions stored sequentially linked to a particular RVM. The structure of log file follows the LRVM paper which emphasises on the key advantage of using log files to enable sequential disk access instead of random disk access.
+3. Segments are the basic data structures used in RVM model. Each segment is mapped to a file in the backing store (RVM directory). Inter-process communication is also possible through segments.
+
+=>How you use logfiles to accomplish persistency plus transaction semantics.
+There is a log file on which transactions are recorded (All transactions for an RVM). Local copy and undo records are stored in memory to perform in-memory transactions. Just as in the case of virtual memory systems, the local copy is modified when memory is accessed in the transaction. However, in case of abort operation, undo records are used to undo any changes made by the transactions. All the transactions are recorded in the log file. We truncate log file when the size of log file crosses 2KB so that the log files are trimmed regularly and hence doesn't bloat. Truncation will also be invoked form rvm_init() if the rvm already exists. This will ensure that all the data structures are updated to the latest values on init(). 
+
+=>What goes in them? How do the files get cleaned up, so that they do not expand indefinitely?
+The log file consists of metadata pertaining to the transactions. It stores the descriptor of the portion of the segment to be modified ( that is, the name of segment, offset and size of data to be stored) and the updated value which is to be stored. Log files are truncated regularly whenever the file size crosses 2KB so as to prevent bloating. This check and truncating is performed whenever we are writing into the log file.
+
+---------------------------------------------------------------------------------------------------------
+Instructions to compile
+
+1. We have included a make file in the project folder. Place the make file and all the other files in a single folder and type the following command to compile the code:
+	make
+2. To compile any test case xxx.c run the following command:
+	g++ xxx.c librvm.a -g -o obj
+3. To execute the test case use the command as follows:
+	./obj
+
+For your convenience, we have also included a bash script run.sh which combines all the above steps. To execute the script for a test case xxx.c, type the command:
+
+bash run.sh xxx.c
+

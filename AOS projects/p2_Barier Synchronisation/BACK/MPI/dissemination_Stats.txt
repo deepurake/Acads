@@ -1,0 +1,178 @@
+Adding user rsurapaneni6 to group authjobs
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 2548 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 1067 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 4360 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 1346 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 2584 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 2358 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 5251 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 3451 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 3885 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 11483 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 1818 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 4376 num_proc: 12 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 568 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 8387 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 974 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 4591 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 2021 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 5953 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 3567 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 2803 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 5323 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 4938 num_proc: 12 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 1500 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 431 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 4091 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 1576 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 2795 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 2298 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 8826 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 1369 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 4743 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 3461 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 1425 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 9757 num_proc: 12 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 8549 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 4537 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 1142 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 1466 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 2536 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 11801 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 2975 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 14151 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 8926 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 2120 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 11029 num_proc: 12 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 1704 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 2580 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 984 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 2381 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 982 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 6526 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 13576 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 2043 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 10312 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 2446 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 3608 num_proc: 12 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 663 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 4062 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 942 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 3331 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 1055 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 14379 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 1082 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 5989 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 3023 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 10068 num_proc: 12 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 1524 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 535 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 2542 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 3117 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 3406 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 1702 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 5615 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 2299 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 4979 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 1791 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 2
+EXIT,Dissemination Barrier, time: 1449 num_proc: 2 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 2619 num_proc: 12 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 3
+EXIT,Dissemination Barrier, time: 561 num_proc: 3 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 4
+EXIT,Dissemination Barrier, time: 3415 num_proc: 4 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 5
+EXIT,Dissemination Barrier, time: 2746 num_proc: 5 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 6
+EXIT,Dissemination Barrier, time: 1135 num_proc: 6 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 7
+EXIT,Dissemination Barrier, time: 1435 num_proc: 7 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 8
+EXIT,Dissemination Barrier, time: 5638 num_proc: 8 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 9
+EXIT,Dissemination Barrier, time: 3660 num_proc: 9 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 10
+EXIT,Dissemination Barrier, time: 3346 num_proc: 10 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 11
+EXIT,Dissemination Barrier, time: 2049 num_proc: 11 num_loops: 50
+START,Dissemination barrier, my id: 0, num_threads: 12
+EXIT,Dissemination Barrier, time: 10542 num_proc: 12 num_loops: 50
+Removing user rsurapaneni6 from group authjobs

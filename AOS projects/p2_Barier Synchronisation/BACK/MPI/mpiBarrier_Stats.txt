@@ -1,0 +1,178 @@
+Adding user rsurapaneni6 to group authjobs
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 2556, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 3036, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 3049, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 3227, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 23642, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 3855, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 4896, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 2675, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 3086, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 5261, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 1534, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 5523, num_proc: 12, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 2660, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 1889, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 2824, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 3520, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 4470, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 4925, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 3090, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 6200, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 3362, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 12267, num_proc: 12, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 1525, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 2405, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 3715, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 2093, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 4188, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 2689, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 6466, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 3868, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 5395, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 6996, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 7837, num_proc: 12, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 2546, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 2148, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 3435, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 2890, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 5132, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 3816, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 9937, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 4448, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 9687, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 4520, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 1464, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 3462, num_proc: 12, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 3291, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 2604, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 2393, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 9104, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 3983, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 5385, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 5139, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 4821, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 8286, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 2599, num_proc: 12, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 3432, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 2870, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 4509, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 2665, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 4772, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 5277, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 4315, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 6274, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 11600, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 5102, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 4123, num_proc: 12, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 19446, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 1880, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 5349, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 2575, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 3131, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 3778, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 8865, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 3337, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 8594, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 6371, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 4321, num_proc: 12, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 2 
+EXIT,MPI Barrier, time: 3926, num_proc: 2, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 3 
+EXIT,MPI Barrier, time: 2568, num_proc: 3, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 4 
+EXIT,MPI Barrier, time: 3729, num_proc: 4, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 5 
+EXIT,MPI Barrier, time: 3470, num_proc: 5, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 6 
+EXIT,MPI Barrier, time: 5549, num_proc: 6, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 7 
+EXIT,MPI Barrier, time: 3833, num_proc: 7, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 8 
+EXIT,MPI Barrier, time: 10355, num_proc: 8, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 9 
+EXIT,MPI Barrier, time: 5840, num_proc: 9, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 10 
+EXIT,MPI Barrier, time: 4847, num_proc: 10, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 11 
+EXIT,MPI Barrier, time: 3422, num_proc: 11, num_loops: 50
+START,MPI Barrier, my id: 0 num_threads: 12 
+EXIT,MPI Barrier, time: 4781, num_proc: 12, num_loops: 50
+Removing user rsurapaneni6 from group authjobs

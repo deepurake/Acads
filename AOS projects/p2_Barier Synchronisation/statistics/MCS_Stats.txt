@@ -1,0 +1,212 @@
+Adding user rsurapaneni6 to group authjobs
+2,0
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 119, num_proc: 2, num_loops: 50
+3,0
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 258, num_proc: 3, num_loops: 50
+4,0
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 357, num_proc: 4, num_loops: 50
+5,0
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 457, num_proc: 5, num_loops: 50
+6,0
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 849, num_proc: 6, num_loops: 50
+7,0
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 887, num_proc: 7, num_loops: 50
+8,0
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1179, num_proc: 8, num_loops: 50
+2,1
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 135, num_proc: 2, num_loops: 50
+3,1
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 169, num_proc: 3, num_loops: 50
+4,1
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 345, num_proc: 4, num_loops: 50
+5,1
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 442, num_proc: 5, num_loops: 50
+6,1
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 753, num_proc: 6, num_loops: 50
+7,1
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 1014, num_proc: 7, num_loops: 50
+8,1
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1262, num_proc: 8, num_loops: 50
+2,2
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 137, num_proc: 2, num_loops: 50
+3,2
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 209, num_proc: 3, num_loops: 50
+4,2
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 325, num_proc: 4, num_loops: 50
+5,2
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 429, num_proc: 5, num_loops: 50
+6,2
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 805, num_proc: 6, num_loops: 50
+7,2
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 934, num_proc: 7, num_loops: 50
+8,2
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1224, num_proc: 8, num_loops: 50
+2,3
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 142, num_proc: 2, num_loops: 50
+3,3
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 198, num_proc: 3, num_loops: 50
+4,3
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 390, num_proc: 4, num_loops: 50
+5,3
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 478, num_proc: 5, num_loops: 50
+6,3
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 741, num_proc: 6, num_loops: 50
+7,3
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 943, num_proc: 7, num_loops: 50
+8,3
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1208, num_proc: 8, num_loops: 50
+2,4
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 140, num_proc: 2, num_loops: 50
+3,4
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 201, num_proc: 3, num_loops: 50
+4,4
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 336, num_proc: 4, num_loops: 50
+5,4
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 430, num_proc: 5, num_loops: 50
+6,4
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 765, num_proc: 6, num_loops: 50
+7,4
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 926, num_proc: 7, num_loops: 50
+8,4
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1147, num_proc: 8, num_loops: 50
+2,5
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 141, num_proc: 2, num_loops: 50
+3,5
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 176, num_proc: 3, num_loops: 50
+4,5
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 352, num_proc: 4, num_loops: 50
+5,5
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 448, num_proc: 5, num_loops: 50
+6,5
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 737, num_proc: 6, num_loops: 50
+7,5
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 992, num_proc: 7, num_loops: 50
+8,5
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1158, num_proc: 8, num_loops: 50
+2,6
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 122, num_proc: 2, num_loops: 50
+3,6
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 192, num_proc: 3, num_loops: 50
+4,6
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 345, num_proc: 4, num_loops: 50
+5,6
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 465, num_proc: 5, num_loops: 50
+6,6
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 808, num_proc: 6, num_loops: 50
+7,6
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 903, num_proc: 7, num_loops: 50
+8,6
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1274, num_proc: 8, num_loops: 50
+2,7
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 113, num_proc: 2, num_loops: 50
+3,7
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 218, num_proc: 3, num_loops: 50
+4,7
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 361, num_proc: 4, num_loops: 50
+5,7
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 496, num_proc: 5, num_loops: 50
+6,7
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 763, num_proc: 6, num_loops: 50
+7,7
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 966, num_proc: 7, num_loops: 50
+8,7
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1187, num_proc: 8, num_loops: 50
+2,8
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 112, num_proc: 2, num_loops: 50
+3,8
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 200, num_proc: 3, num_loops: 50
+4,8
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 351, num_proc: 4, num_loops: 50
+5,8
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 455, num_proc: 5, num_loops: 50
+6,8
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 812, num_proc: 6, num_loops: 50
+7,8
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 963, num_proc: 7, num_loops: 50
+8,8
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1218, num_proc: 8, num_loops: 50
+2,9
+START,MCS Barrier, num_threads: 2, num_barriers 50
+EXIT,MCS Barrier, time: 128, num_proc: 2, num_loops: 50
+3,9
+START,MCS Barrier, num_threads: 3, num_barriers 50
+EXIT,MCS Barrier, time: 223, num_proc: 3, num_loops: 50
+4,9
+START,MCS Barrier, num_threads: 4, num_barriers 50
+EXIT,MCS Barrier, time: 356, num_proc: 4, num_loops: 50
+5,9
+START,MCS Barrier, num_threads: 5, num_barriers 50
+EXIT,MCS Barrier, time: 497, num_proc: 5, num_loops: 50
+6,9
+START,MCS Barrier, num_threads: 6, num_barriers 50
+EXIT,MCS Barrier, time: 854, num_proc: 6, num_loops: 50
+7,9
+START,MCS Barrier, num_threads: 7, num_barriers 50
+EXIT,MCS Barrier, time: 948, num_proc: 7, num_loops: 50
+8,9
+START,MCS Barrier, num_threads: 8, num_barriers 50
+EXIT,MCS Barrier, time: 1183, num_proc: 8, num_loops: 50
+Removing user rsurapaneni6 from group authjobs

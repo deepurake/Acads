@@ -1,0 +1,178 @@
+Adding user rsurapaneni6 to group authjobs
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 120, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 987, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 2509, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 1058, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 3724, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 1277, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 5628, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 2176, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 3592, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 4136, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 1481, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 2742, num_proc: 12, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 1656, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 6468, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 2653, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 1821, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 3912, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 3796, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 3524, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 1900, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 1649, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 2013, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 3309, num_proc: 12, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 2309, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 823, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 1261, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 924, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 1972, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 3896, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 35733, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 5301, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 2140, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 239, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 3814, num_proc: 12, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 992, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 994, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 865, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 7935, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 9498, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 882, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 1759, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 3726, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 4996, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 479, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 62529, num_proc: 12, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 1753, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 6299, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 5082, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 785, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 2078, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 72099, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 15763, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 55251, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 12473, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 246, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 3467, num_proc: 12, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 448, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 489, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 765, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 1761, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 2250, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 1148, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 2838, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 2790, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 4620, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 161, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 3440, num_proc: 12, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 405, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 513, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 895, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 735, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 1405, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 1418, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 2846, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 3001, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 2495, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 2
+EXIT,Tournament Barrier, time: 1031, num_proc: 2, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 2229, num_proc: 12, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 3
+EXIT,Tournament Barrier, time: 490, num_proc: 3, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 4
+EXIT,Tournament Barrier, time: 2423, num_proc: 4, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 5
+EXIT,Tournament Barrier, time: 8717, num_proc: 5, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 6
+EXIT,Tournament Barrier, time: 3512, num_proc: 6, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 7
+EXIT,Tournament Barrier, time: 4536, num_proc: 7, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 8
+EXIT,Tournament Barrier, time: 3373, num_proc: 8, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 9
+EXIT,Tournament Barrier, time: 3667, num_proc: 9, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 10
+EXIT,Tournament Barrier, time: 3631, num_proc: 10, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 11
+EXIT,Tournament Barrier, time: 1715, num_proc: 11, num_loops: 50
+START,Tournament Barrier, my id: 0, num_threads: 12
+EXIT,Tournament Barrier, time: 34454, num_proc: 12, num_loops: 50
+Removing user rsurapaneni6 from group authjobs

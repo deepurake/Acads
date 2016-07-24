@@ -1,0 +1,314 @@
+Adding user rsurapaneni6 to group authjobs
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 333, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 321, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 381, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 618, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 998, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 500, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 631, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 748, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 975, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 5684, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 475, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 1198, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 514, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 834, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 3098, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 763, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 1499938, num_proc: 3, num_loops: 50
+EXIT,Combined Barrier, time: 1750747, num_proc: 3, num_loops: 50
+EXIT,Combined Barrier, time: 1445156, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 1099690, num_proc: 3, num_loops: 50
+EXIT,Combined Barrier, time: 171586, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 914, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 17097, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 1579, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 458, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 749999, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 1000192, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 3139750, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 3399873, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 2411994, num_proc: 4, num_loops: 50
+EXIT,Combined Barrier, time: 254142, num_proc: 5, num_loops: 50
+EXIT,Combined Barrier, time: 1340235, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 32239, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 670750, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 831344, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 2115209, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 3633192, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 4934932, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 4570001, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 4343104, num_proc: 5, num_loops: 50
+EXIT,Combined Barrier, time: 3843234, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 3680194, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 4680004, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 4595000, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 5899190, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 6557692, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 8304972, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 9735006, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 10740010, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 11570004, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 11675006, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 15110005, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 16420004, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 16795011, num_proc: 7, num_loops: 50
+EXIT,Combined Barrier, time: 15820075, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 20270011, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 24780005, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 26095005, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 26749040, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 27734999, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 17210006, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 17255002, num_proc: 2, num_loops: 50
+EXIT,Combined Barrier, time: 29749195, num_proc: 8, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 18270001, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 16660002, num_proc: 2, num_loops: 50
+EXIT,Combined Barrier, time: 32075013, num_proc: 8, num_loops: 50
+EXIT,Combined Barrier, time: 18870005, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 31035003, num_proc: 8, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 18560000, num_proc: 2, num_loops: 50
+EXIT,Combined Barrier, time: 33095117, num_proc: 8, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 18560159, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 17634998, num_proc: 2, num_loops: 50
+EXIT,Combined Barrier, time: 18900010, num_proc: 2, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 34640004, num_proc: 8, num_loops: 50
+EXIT,Combined Barrier, time: 17900003, num_proc: 2, num_loops: 50
+EXIT,Combined Barrier, time: 17297204, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 35795013, num_proc: 8, num_loops: 50
+EXIT,Combined Barrier, time: 17770001, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 36240011, num_proc: 8, num_loops: 50
+EXIT,Combined Barrier, time: 35075005, num_proc: 8, num_loops: 50
+EXIT,Combined Barrier, time: 33885008, num_proc: 8, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 4
+EXIT,Combined Barrier, time: 17480008, num_proc: 3, num_loops: 50
+EXIT,Combined Barrier, time: 33390019, num_proc: 8, num_loops: 50
+EXIT,Combined Barrier, time: 19320189, num_proc: 3, num_loops: 50
+EXIT,Combined Barrier, time: 17495008, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 15970006, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 17425123, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 16465057, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 15540002, num_proc: 3, num_loops: 50
+EXIT,Combined Barrier, time: 14855921, num_proc: 3, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 17379937, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 15355000, num_proc: 4, num_loops: 50
+EXIT,Combined Barrier, time: 15355537, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 17590001, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 5
+EXIT,Combined Barrier, time: 15690983, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 15664995, num_proc: 4, num_loops: 50
+EXIT,Combined Barrier, time: 15550002, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 15740122, num_proc: 4, num_loops: 50
+EXIT,Combined Barrier, time: 12240002, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 14915094, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 12900955, num_proc: 5, num_loops: 50
+EXIT,Combined Barrier, time: 14855940, num_proc: 4, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 13749994, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 14710940, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 13595813, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+EXIT,Combined Barrier, time: 16220003, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 6
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 19885012, num_proc: 5, num_loops: 50
+EXIT,Combined Barrier, time: 17615007, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 18860004, num_proc: 5, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 17460006, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 20354997, num_proc: 5, num_loops: 50
+EXIT,Combined Barrier, time: 18385953, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+EXIT,Combined Barrier, time: 18710943, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 7
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 20320009, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 23465010, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 24070009, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+EXIT,Combined Barrier, time: 27185013, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 8
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 28050004, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 31060005, num_proc: 6, num_loops: 50
+EXIT,Combined Barrier, time: 33340005, num_proc: 6, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+EXIT,Combined Barrier, time: 31540003, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 2
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+EXIT,Combined Barrier, time: 32360005, num_proc: 7, num_loops: 50
+EXIT,Combined Barrier, time: 33970008, num_proc: 7, num_loops: 50
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+ENTER,Combined Barrier, my id: 0, num_threads: 3
+7 total processes killed (some possibly by mpirun during cleanup)
+7 total processes killed (some possibly by mpirun during cleanup)
+7 total processes killed (some possibly by mpirun during cleanup)
+7 total processes killed (some possibly by mpirun during cleanup)
+7 total processes killed (some possibly by mpirun during cleanup)
+7 total processes killed (some possibly by mpirun during cleanup)
+7 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+8 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+2 total processes killed (some possibly by mpirun during cleanup)
+3 total processes killed (some possibly by mpirun during cleanup)
+3 total processes killed (some possibly by mpirun during cleanup)
+3 total processes killed (some possibly by mpirun during cleanup)
+3 total processes killed (some possibly by mpirun during cleanup)
+3 total processes killed (some possibly by mpirun during cleanup)
+3 total processes killed (some possibly by mpirun during cleanup)
+3 total processes killed (some possibly by mpirun during cleanup)
+Removing user rsurapaneni6 from group authjobs

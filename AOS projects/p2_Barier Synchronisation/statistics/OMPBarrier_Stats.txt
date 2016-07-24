@@ -1,0 +1,212 @@
+Adding user rsurapaneni6 to group authjobs
+2,0
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 25, num_proc: 2, num_loops: 50
+3,0
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 30, num_proc: 3, num_loops: 50
+4,0
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 30, num_proc: 4, num_loops: 50
+5,0
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 33, num_proc: 5, num_loops: 50
+6,0
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 42, num_proc: 6, num_loops: 50
+7,0
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 38, num_proc: 7, num_loops: 50
+8,0
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 45, num_proc: 8, num_loops: 50
+2,1
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 25, num_proc: 2, num_loops: 50
+3,1
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 33, num_proc: 3, num_loops: 50
+4,1
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 34, num_proc: 4, num_loops: 50
+5,1
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 69, num_proc: 5, num_loops: 50
+6,1
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 39, num_proc: 6, num_loops: 50
+7,1
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 41, num_proc: 7, num_loops: 50
+8,1
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 150, num_proc: 8, num_loops: 50
+2,2
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 25, num_proc: 2, num_loops: 50
+3,2
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 31, num_proc: 3, num_loops: 50
+4,2
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 34, num_proc: 4, num_loops: 50
+5,2
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 32, num_proc: 5, num_loops: 50
+6,2
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 42, num_proc: 6, num_loops: 50
+7,2
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 93, num_proc: 7, num_loops: 50
+8,2
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 50, num_proc: 8, num_loops: 50
+2,3
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 26, num_proc: 2, num_loops: 50
+3,3
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 26, num_proc: 3, num_loops: 50
+4,3
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 35, num_proc: 4, num_loops: 50
+5,3
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 31, num_proc: 5, num_loops: 50
+6,3
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 41, num_proc: 6, num_loops: 50
+7,3
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 38, num_proc: 7, num_loops: 50
+8,3
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 49, num_proc: 8, num_loops: 50
+2,4
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 26, num_proc: 2, num_loops: 50
+3,4
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 30, num_proc: 3, num_loops: 50
+4,4
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 31, num_proc: 4, num_loops: 50
+5,4
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 93, num_proc: 5, num_loops: 50
+6,4
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 102, num_proc: 6, num_loops: 50
+7,4
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 40, num_proc: 7, num_loops: 50
+8,4
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 46, num_proc: 8, num_loops: 50
+2,5
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 25, num_proc: 2, num_loops: 50
+3,5
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 26, num_proc: 3, num_loops: 50
+4,5
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 34, num_proc: 4, num_loops: 50
+5,5
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 32, num_proc: 5, num_loops: 50
+6,5
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 39, num_proc: 6, num_loops: 50
+7,5
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 41, num_proc: 7, num_loops: 50
+8,5
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 49, num_proc: 8, num_loops: 50
+2,6
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 25, num_proc: 2, num_loops: 50
+3,6
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 30, num_proc: 3, num_loops: 50
+4,6
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 35, num_proc: 4, num_loops: 50
+5,6
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 36, num_proc: 5, num_loops: 50
+6,6
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 41, num_proc: 6, num_loops: 50
+7,6
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 44, num_proc: 7, num_loops: 50
+8,6
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 70, num_proc: 8, num_loops: 50
+2,7
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 26, num_proc: 2, num_loops: 50
+3,7
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 31, num_proc: 3, num_loops: 50
+4,7
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 34, num_proc: 4, num_loops: 50
+5,7
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 31, num_proc: 5, num_loops: 50
+6,7
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 40, num_proc: 6, num_loops: 50
+7,7
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 40, num_proc: 7, num_loops: 50
+8,7
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 47, num_proc: 8, num_loops: 50
+2,8
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 25, num_proc: 2, num_loops: 50
+3,8
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 30, num_proc: 3, num_loops: 50
+4,8
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 34, num_proc: 4, num_loops: 50
+5,8
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 31, num_proc: 5, num_loops: 50
+6,8
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 42, num_proc: 6, num_loops: 50
+7,8
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 42, num_proc: 7, num_loops: 50
+8,8
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 46, num_proc: 8, num_loops: 50
+2,9
+START,OpenMP Barrier, num_threads: 2, num_barriers 50
+EXIT,OpenMP Barrier, time: 26, num_proc: 2, num_loops: 50
+3,9
+START,OpenMP Barrier, num_threads: 3, num_barriers 50
+EXIT,OpenMP Barrier, time: 27, num_proc: 3, num_loops: 50
+4,9
+START,OpenMP Barrier, num_threads: 4, num_barriers 50
+EXIT,OpenMP Barrier, time: 34, num_proc: 4, num_loops: 50
+5,9
+START,OpenMP Barrier, num_threads: 5, num_barriers 50
+EXIT,OpenMP Barrier, time: 32, num_proc: 5, num_loops: 50
+6,9
+START,OpenMP Barrier, num_threads: 6, num_barriers 50
+EXIT,OpenMP Barrier, time: 37, num_proc: 6, num_loops: 50
+7,9
+START,OpenMP Barrier, num_threads: 7, num_barriers 50
+EXIT,OpenMP Barrier, time: 40, num_proc: 7, num_loops: 50
+8,9
+START,OpenMP Barrier, num_threads: 8, num_barriers 50
+EXIT,OpenMP Barrier, time: 50, num_proc: 8, num_loops: 50
+Removing user rsurapaneni6 from group authjobs
