@@ -1,0 +1,2 @@
+origin: Albuquerque, NM, United States
+destination : San Diego, CA, United States

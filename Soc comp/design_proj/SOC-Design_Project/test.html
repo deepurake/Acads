@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Search for up to 200 places with Radar Search</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+      #image {
+        height: 20%;
+        width: 20%;
+      }
+      .controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#origin-input,
+#destination-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+  border-color: #4d90fe;
+}
+
+#mode-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  margin-left: 12px;
+  padding: 5px 11px 0px 11px;
+}
+
+#mode-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="d3.v3.min.js"></script>
+
+    <script>
+
+var map;
+var infoWindow;
+var service;
+var markers = [];
+var labels = [];
+var labelIndex = 0;
+var prev_infowindow =false; 
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: { lat: 12.97, lng: 77.59 },
+    zoom: 15,
+    styles: [{
+      stylers: [{ visibility: 'simplified' }]
+    }, {
+      elementType: 'labels',
+      stylers: [{ visibility: 'off' }]
+    }]
+  });
+
+  infoWindow = new google.maps.InfoWindow();
+  service = new google.maps.places.PlacesService(map);
+
+  // The idle event is a debounced event, so we can query & listen without
+  // throwing too many requests at the server.
+  map.addListener('bounds_changed', performSearch);
+}
+
+function performSearch() {
+  for (var i = 0; i < markers.length; i++) {
+    markers[i].setMap(null);
+  }
+  console.log('happening');
+  markers = [];
+  cities = [];
+  friends = [];
+
+  var points = [];
+  var bounds = map.getBounds();
+  var ne = bounds.getNorthEast();
+  var sw = bounds.getSouthWest();
+  var center = map.getCenter();
+  for(var i = 0; i<1; i++){
+    points.push([ne.lat() + (sw.lat() - ne.lat())*Math.random(),ne.lng() + (sw.lng() - ne.lng())*Math.random()]);
+    get_city(points[i]);
+  }
+}
+var cities = []
+var friends = []
+function get_friend(city){
+  $.getJSON( "http://127.0.0.1:5000/"+city, function( data ) {
+    friends.concat(data);
+    console.log(data);
+    for(var i =0 ; i< data.length; i++){
+      d = data[i];
+      var image = {
+                      url: d.img,
+                       //url: "circle.png",
+                      // This marker is 20 pixels wide by 32 pixels high.
+                      scaledSize: new google.maps.Size(40, 40),
+                      // The origin for this image is (0, 0).
+                      origin: new google.maps.Point(0, 0),
+                      // The anchor for this image is the base of the flagpole at (0, 32).
+                    }
+      addMarker(d.address,image,map, d["name"],d.link)
+      console.log("marking");
+      //addMarker_cood([d.address.lat,d.address.lng]);
+    }
+  });
+}
+
+function addMarker(location, imag, map, name, handler) {
+  // Add the marker at the clicked location, and add the next-available label
+  // from the array of alphabetical characters.
+   var contentString = '<div id="content">'+
+      '<p><a href="'+handler+'"><h2 id="firstHeading" class="firstHeading">'+name+'</a></h2>'+
+      '<div id="bodyContent">'+
+      //'<a href="http://twitter.com/share">Tweet</a>'+
+      '</div>'+
+      '</div>';
+  var infowindow = new google.maps.InfoWindow({
+    content:contentString
+  });
+  var fac = map.getZoom();
+  if (fac <= 12 ){
+    fac = 12;
+  }
+  location.lat = location.lat + Math.random()/fac - 0.5/fac;
+  location.lng = location.lng + Math.random()/fac - 0.5/fac;
+  var marker = new google.maps.Marker({
+    position: location,
+    label: labels[labelIndex++ % labels.length],
+    map: map,
+    icon: imag
+    //icon: images[imageIndex++ % images.length]
+  });
+  marker.addListener('click', function(){
+    if( prev_infowindow ) {
+       prev_infowindow.close();
+    }
+    prev_infowindow = infowindow;
+    infowindow.open(map,marker);
+  });
+  markers.push(marker);
+}
+
+function get_city(point){
+  $.getJSON( "https://maps.googleapis.com/maps/api/geocode/json?latlng="+point[0]+","+ point[1]+"&key=AIzaSyCEsr3f-LbFroDrwaqzy6c4hicdVbI7HYI", function( data ) {
+      //console.log(data);
+      if(data == null || data.results[0] == null) return;
+      var comp = data.results[0].address_components
+      for (var i = 0; i<comp.length; i++){
+        if(comp[i].types.indexOf("political") >= 0){
+          if(cities.indexOf(comp[i].long_name) === -1)
+            cities.push(comp[i].long_name);
+            get_friend(comp[i].long_name);
+        }
+      }
+    //console.log(cities);
+    
+  });
+}
+
+function addMarker_cood(location) {
+  var marker = new google.maps.Marker({
+    map: map,
+    position: {lat:parseFloat(location[0]), lng:parseFloat(location[1])},
+    icon: {
+      url: 'circle.png',
+      anchor: new google.maps.Point(10, 10),
+      scaledSize: new google.maps.Size(10, 17)
+    }
+  });
+
+  markers.push(marker);
+
+  google.maps.event.addListener(marker, 'click', function() {
+    service.getDetails(place, function(result, status) {
+      if (status !== google.maps.places.PlacesServiceStatus.OK) {
+        console.error(status);
+        return;
+      }
+      infoWindow.setContent(result.name);
+      infoWindow.open(map, marker);
+    });
+  });
+}
+
+    </script>
+  </head>
+  <body>
+    <label id="comment"></label>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEsr3f-LbFroDrwaqzy6c4hicdVbI7HYI&callback=initMap&signed_in=true&libraries=places,visualization" async defer></script>
+  </body>
+</html>
